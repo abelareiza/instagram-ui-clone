@@ -574,6 +574,55 @@ video {
 	--tw-ring-shadow: 0 0 #0000;
 	--tw-shadow: 0 0 #0000;
 }
+.aspect-w-1,
+.aspect-w-2,
+.aspect-w-3,
+.aspect-w-4,
+.aspect-w-5,
+.aspect-w-6,
+.aspect-w-7,
+.aspect-w-8,
+.aspect-w-9,
+.aspect-w-10,
+.aspect-w-11,
+.aspect-w-12,
+.aspect-w-13,
+.aspect-w-14,
+.aspect-w-15,
+.aspect-w-16 {
+	position: relative;
+	padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+}
+.aspect-w-1 > *,
+.aspect-w-2 > *,
+.aspect-w-3 > *,
+.aspect-w-4 > *,
+.aspect-w-5 > *,
+.aspect-w-6 > *,
+.aspect-w-7 > *,
+.aspect-w-8 > *,
+.aspect-w-9 > *,
+.aspect-w-10 > *,
+.aspect-w-11 > *,
+.aspect-w-12 > *,
+.aspect-w-13 > *,
+.aspect-w-14 > *,
+.aspect-w-15 > *,
+.aspect-w-16 > * {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.aspect-w-1 {
+	--tw-aspect-w: 1;
+}
+.aspect-h-1 {
+	--tw-aspect-h: 1;
+}
 .absolute {
 	position: absolute;
 }
@@ -600,6 +649,10 @@ video {
 	margin-left: auto;
 	margin-right: auto;
 }
+.my-2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
 .flex {
 	display: flex;
 }
@@ -624,6 +677,9 @@ video {
 .h-\[58px\] {
 	height: 58px;
 }
+.h-8 {
+	height: 2rem;
+}
 .min-h-screen {
 	min-height: 100vh;
 }
@@ -645,6 +701,9 @@ video {
 .w-\[58px\] {
 	width: 58px;
 }
+.w-8 {
+	width: 2rem;
+}
 .flex-col {
 	flex-direction: column;
 }
@@ -657,6 +716,11 @@ video {
 .justify-between {
 	justify-content: space-between;
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0;
+	margin-right: calc(1rem * var(--tw-space-x-reverse));
+	margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
 	margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -664,6 +728,9 @@ video {
 }
 .overflow-hidden {
 	overflow: hidden;
+}
+.overflow-scroll {
+	overflow: scroll;
 }
 .overflow-x-scroll {
 	overflow-x: scroll;
@@ -719,6 +786,9 @@ video {
 	-o-object-fit: cover;
 	   object-fit: cover;
 }
+.p-2 {
+	padding: 0.5rem;
+}
 .px-10 {
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
@@ -741,13 +811,12 @@ video {
 .text-\[22px\] {
 	font-size: 22px;
 }
-.text-sm {
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-}
 .text-xs {
 	font-size: 0.75rem;
 	line-height: 1rem;
+}
+.font-bold {
+	font-weight: 700;
 }
 .shadow-xl {
 	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -755,12 +824,14 @@ video {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.ig__stories::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-.ig__stories {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+.ig__stories::-webkit-scrollbar,
+.iphone__mockup::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.ig__stories,
+.iphone__mockup {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
