@@ -16,10 +16,10 @@
     <title>Instagram</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
+  <body class="text-gris3">
     <!-- Background -->
     <div
-      class="px-10 min-h-screen bg-purple-50 flex justify-center items-center"
+      class="relative px-10 min-h-screen bg-purple-50 flex justify-center items-center"
     >
       <!-- iPhone mockup -->
       <div
@@ -39,17 +39,22 @@
         <div class="absolute inset-0 h-full w-full bg-gris"></div>
 
         <!-- iPhone - Notch -->
-        <div class="fixed top-30 inset-x-0 z-10">
+        <div class="fixed top-30 inset-x-0 z-20">
           <div class="h-6 w-40 mx-auto bg-black rounded-b-3xl"></div>
         </div>
 
         <!-- Instagram - Navbar -->
         <div
           class="
-            relative
+            fixed
+            inset-x-0;
+            top-30
+            z-10
             flex
             justify-between
             h-[78px]
+            w-[322px]
+            rounded-t-[46px]
             px-5
             pt-6
             items-center
@@ -61,9 +66,9 @@
             <img src="https://svgsilh.com/svg/1594387.svg" alt="" />
           </div>
           <div class="flex space-x-4">
-            <i class="far fa-plus-square text-[22px]"></i>
-            <i class="far fa-heart text-[22px]"></i>
-            <i class="fab fa-facebook-messenger text-[22px]"></i>
+            <i class="far fa-plus-square text-[22px] text-gris3"></i>
+            <i class="far fa-heart text-[22px] text-gris3"></i>
+            <i class="fab fa-facebook-messenger text-[22px] text-gris3"></i>
           </div>
         </div>
 
@@ -73,12 +78,12 @@
             ig__stories
             relative
             bg-gris2
-            py-4
-            px-2
+            p-4
+            mt-[78px]
             border border-gris
             flex
             h-[118px]
-            space-x-2
+            space-x-4
             overflow-x-scroll
           "
         >
@@ -88,7 +93,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-2 ring-pink-500
                 h-16
                 w-16
                 rounded-full
@@ -96,12 +101,12 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/jujis.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1485528562718-2ae1c8419ae2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">jujalag</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">john_j88</div>
           </div>
           <div class="flex flex-col items-center">
             <div
@@ -109,7 +114,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-2 ring-pink-500
                 h-16
                 w-16
                 rounded-full
@@ -117,12 +122,12 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/ads.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">albol</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">mary99</div>
           </div>
           <div class="flex flex-col items-center">
             <div
@@ -130,7 +135,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-1 ring-gris
                 h-16
                 w-16
                 rounded-full
@@ -138,12 +143,12 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/b.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1447194047554-cfe888edc98c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">xerxes</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">julia20</div>
           </div>
           <div class="flex flex-col items-center">
             <div
@@ -151,7 +156,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-1 ring-gris
                 h-16
                 w-16
                 rounded-full
@@ -159,12 +164,12 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/maria.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">maria</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">mike_r</div>
           </div>
           <div class="flex flex-col items-center">
             <div
@@ -172,7 +177,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-1 ring-gris
                 h-16
                 w-16
                 rounded-full
@@ -180,12 +185,12 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/wqd.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">erica</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">erica1</div>
           </div>
           <div class="flex flex-col items-center">
             <div
@@ -193,7 +198,7 @@
                 flex
                 justify-center
                 items-center
-                border border-gris
+                ring-1 ring-gris
                 h-16
                 w-16
                 rounded-full
@@ -201,27 +206,27 @@
               "
             >
               <img
-                class="object-cover h-[58px] w-[58px] rounded-full"
-                src="https://avatars.dicebear.com/api/human/jujadwwalag.svg"
+                class="object-cover h-[56px] w-[56px] rounded-full"
+                src="https://images.unsplash.com/photo-1521112376370-0a3b01544ab1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80"
                 alt=""
               />
             </div>
-            <div class="text-xs">sam</div>
+            <div class="text-xs mt-1 tracking-wide text-gris3 font-normal">samuel_d</div>
           </div>
         </div>
 
         <!-- Instagram - Feed -->
         <div class="relative flex flex-col">
           <!-- Post -->
-          <div class="flex flex-col bg-white">
+          <div class="flex flex-col bg-white pb-4">
             <!-- Post header -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex items-center space-x-2">
                 <div class="h-8 w-8 rounded-full overflow-hidden">
-                  <img class="object-cover" src="https://images.unsplash.com/photo-1559624989-7b9303bd9792?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="" />
+                  <img class="object-cover" src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="" />
                 </div>
                 <div class="account-name">
-                  <p>fataftpankocat</p>
+                  <p class="text-sm">marianne2002</p>
                 </div>
               </div>
               <i class="fas fa-ellipsis-v"></i>
@@ -230,35 +235,46 @@
             <div class="aspect-w-1 aspect-h-1">
               <img
                 class="object-cover"
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1627&q=80"
+                src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
                 alt=""
               />
             </div>
             <!-- Post actions -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex space-x-2">
-                <i class="far fa-heart"></i>
-                <i class="far fa-comment"></i>
-                <i class="far fa-paper-plane"></i>
+                <i class="fas fa-heart text-2xl text-red-500"></i>
+                <i class="far fa-comment text-2xl"></i>
+                <i class="far fa-paper-plane text-2xl"></i>
               </div>
-              <i class="far fa-bookmark"></i>
+              <i class="far fa-bookmark text-2xl"></i>
             </div>
             <!-- Post description -->
-            <div class="flex flex-col justify-center p-2">
-              <p class="text-xs font-bold">132,942 likes</p>
-              <p class="text-xs my-2"><b>fatfatpankocat</b> Lorem bias, nemo quos veniam est enim delectus sequi.</p>
+            <div class="flex flex-col justify-center px-4 pb-2">
+              <p class="text-sm font-bold mb-2">12,942 likes</p>
+              <p class="text-sm"><b>marianne2002</b> Lorem bias, nemo quos veniam est enim delectus sequi ❤️ 🐱</p>
+              <a class="text-sm text-gris4 my-1" href="#">View all 29 comments</a>
+              <!-- Comments -->
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>marianne2002</b> Porro motiae, laboriosam culpa voluptatem rerum?</p>
+                <a href="#"><i class="far fa-heart text-xs"></i></a>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>annie95</b> <a href="#" class="text-sm text-azul">@marianne2002</a> animi pariatur, nihil delectus enim!</p>
+                <a href="#"><i class="far fa-heart text-xs"></i></a>
+              </div>
+              <p class="text-[10px] text-gris4 uppercase tracking-wider my-2">2 hours ago</p>
             </div>
           </div>
           <!-- Post -->
-          <div class="flex flex-col bg-white">
+          <div class="flex flex-col bg-white pb-4">
             <!-- Post header -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex items-center space-x-2">
                 <div class="h-8 w-8 rounded-full overflow-hidden">
-                  <img class="object-cover" src="https://images.unsplash.com/photo-1559624989-7b9303bd9792?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="" />
+                  <img class="object-cover" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="" />
                 </div>
                 <div class="account-name">
-                  <p>fataftpankocat</p>
+                  <p class="text-sm">annie95</p>
                 </div>
               </div>
               <i class="fas fa-ellipsis-v"></i>
@@ -267,35 +283,46 @@
             <div class="aspect-w-1 aspect-h-1">
               <img
                 class="object-cover"
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1627&q=80"
+                src="https://images.unsplash.com/photo-1591840813416-c1cf70cd4022?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
                 alt=""
               />
             </div>
             <!-- Post actions -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex space-x-2">
-                <i class="far fa-heart"></i>
-                <i class="far fa-comment"></i>
-                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart text-2xl"></i>
+                <i class="far fa-comment text-2xl"></i>
+                <i class="far fa-paper-plane text-2xl"></i>
               </div>
-              <i class="far fa-bookmark"></i>
+              <i class="fas fa-bookmark text-2xl"></i>
             </div>
             <!-- Post description -->
-            <div class="flex flex-col justify-center p-2">
-              <p class="text-xs font-bold">132,942 likes</p>
-              <p class="text-xs my-2"><b>fatfatpankocat</b> Lorem bias, nemo quos veniam est enim delectus sequi.</p>
+            <div class="flex flex-col justify-center px-4 pb-2">
+              <p class="text-sm font-bold mb-2">3,225 likes</p>
+              <p class="text-sm"><b>annie95</b> Lorem bias, nemo quos 🐤</p>
+              <a class="text-sm text-gris4 my-1" href="#">View all 12 comments</a>
+              <!-- Comments -->
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>marianne2002</b> Quibusdam ex itaque</p>
+                <a href="#"><i class="far fa-heart text-xs"></i></a>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>john_j88</b> <a href="#" class="text-sm text-azul">@marianne2002</a> Accusamus consectetur repudiandae sint velit vitae vero dolor ne</p>
+                <a href="#"><i class="fas fa-heart text-xs text-red-500"></i></a>
+              </div>
+              <p class="text-[10px] text-gris4 uppercase tracking-wider my-2">4 hours ago</p>
             </div>
           </div>
           <!-- Post -->
-          <div class="flex flex-col bg-white">
+          <div class="flex flex-col bg-white pb-4">
             <!-- Post header -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex items-center space-x-2">
                 <div class="h-8 w-8 rounded-full overflow-hidden">
-                  <img class="object-cover" src="https://images.unsplash.com/photo-1559624989-7b9303bd9792?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="" />
+                  <img class="object-cover" src="https://images.unsplash.com/photo-1484611941511-3628849e90f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="" />
                 </div>
                 <div class="account-name">
-                  <p>fataftpankocat</p>
+                  <p class="text-sm">johny_42</p>
                 </div>
               </div>
               <i class="fas fa-ellipsis-v"></i>
@@ -304,23 +331,83 @@
             <div class="aspect-w-1 aspect-h-1">
               <img
                 class="object-cover"
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1627&q=80"
+                src="https://images.unsplash.com/photo-1613864569518-aed894ff3f76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80"
                 alt=""
               />
             </div>
             <!-- Post actions -->
-            <div class="flex justify-between items-center p-2">
+            <div class="flex justify-between items-center px-4 py-2">
               <div class="flex space-x-2">
-                <i class="far fa-heart"></i>
-                <i class="far fa-comment"></i>
-                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart text-2xl"></i>
+                <i class="far fa-comment text-2xl"></i>
+                <i class="far fa-paper-plane text-2xl"></i>
               </div>
-              <i class="far fa-bookmark"></i>
+              <i class="far fa-bookmark text-2xl"></i>
             </div>
             <!-- Post description -->
-            <div class="flex flex-col justify-center p-2">
-              <p class="text-xs font-bold">132,942 likes</p>
-              <p class="text-xs my-2"><b>fatfatpankocat</b> Lorem bias, nemo quos veniam est enim delectus sequi.</p>
+            <div class="flex flex-col justify-center px-4 pb-2">
+              <p class="text-sm font-bold mb-2">21,561 likes</p>
+              <p class="text-sm"><b>johny_42</b> Perspiciatis numquam tempora cum sequi repudiandae vero, dolor eligendi corrupti unde! 🚋</p>
+              <a class="text-sm text-gris4 my-1" href="#">View all 12 comments</a>
+              <!-- Comments -->
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>annie95</b> Deserunt ea, hic labore!</p>
+                <a href="#"><i class="fas fa-heart text-xs text-red-500"></i></a>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>john_j88</b> <a href="#" class="text-sm text-azul">@johny_42</a> Asint velit vitae vero dolor ne?</p>
+                <a href="#"><i class="far fa-heart text-xs"></i></a>
+              </div>
+              <p class="text-[10px] text-gris4 uppercase tracking-wider my-2">7 hours ago</p>
+            </div>
+          </div>
+        </div>
+          <!-- Post -->
+          <div class="flex flex-col bg-white pb-4">
+            <!-- Post header -->
+            <div class="flex justify-between items-center px-4 py-2">
+              <div class="flex items-center space-x-2">
+                <div class="h-8 w-8 rounded-full overflow-hidden">
+                  <img class="object-cover" src="https://images.unsplash.com/photo-1485528562718-2ae1c8419ae2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="" />
+                </div>
+                <div class="account-name">
+                  <p class="text-sm">john_j88</p>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <!-- Post pic -->
+            <div class="aspect-w-1 aspect-h-1">
+              <img
+                class="object-cover"
+                src="https://images.unsplash.com/photo-1612152328925-8b4ff8555606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=612&q=80"
+                alt=""
+              />
+            </div>
+            <!-- Post actions -->
+            <div class="flex justify-between items-center px-4 py-2">
+              <div class="flex space-x-2">
+                <i class="fas fa-heart text-2xl text-red-500"></i>
+                <i class="far fa-comment text-2xl"></i>
+                <i class="far fa-paper-plane text-2xl"></i>
+              </div>
+              <i class="far fa-bookmark text-2xl"></i>
+            </div>
+            <!-- Post description -->
+            <div class="flex flex-col justify-center px-4 pb-2">
+              <p class="text-sm font-bold mb-2">5,129 likes</p>
+              <p class="text-sm"><b>john_j88</b> Tempore tempora nemo corporis.</p>
+              <a class="text-sm text-gris4 my-1" href="#">View all 12 comments</a>
+              <!-- Comments -->
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>annie95</b> <a href="#" class="text-sm text-azul">@marianne2002</a> Dolore, earum dolores accusamus eveniet?</p>
+                <a href="#"><i class="fas fa-heart text-xs text-red-500"></i></a>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="text-sm pr-2"><b>johny_42</b> Lot! Atium quisquam ipsa ex iusto aliquam soluta? ex itaque</p>
+                <a href="#"><i class="far fa-heart text-xs"></i></a>
+              </div>
+              <p class="text-[10px] text-gris4 uppercase tracking-wider my-2">4 hours ago</p>
             </div>
           </div>
         </div>
