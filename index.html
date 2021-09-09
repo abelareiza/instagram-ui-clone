@@ -20,7 +20,6 @@
   <body class="text-gris3">
     <!-- General background -->
     <div class="flex bg-[#121212] items-center justify-center min-h-screen">
-      <!-- Glowing mockup border -->
       <div class="relative group">
         <!-- Instagram - Navbar -->
         <div
@@ -38,7 +37,7 @@
             rounded-t-[46px]
             top-[14px]
             w-[322px]
-            z-10
+            z-20
           "
         >
           <div class="flex w-24">
@@ -55,6 +54,12 @@
           </div>
         </div>
 
+        <!-- iPhone - Notch -->
+        <div class="absolute top-[14px] inset-x-0 z-20">
+          <div class="h-6 w-40 mx-auto bg-black rounded-b-3xl"></div>
+        </div>
+
+        <!-- Glowing mockup border -->
         <div
           class="
             absolute
@@ -79,20 +84,16 @@
           class="
             iphone__mockup
             relative
-            bg-black
+            bg-white
             border-[14px] border-black
             h-[712px]
             overflow-scroll
             rounded-[60px]
             shadow-xl
             w-[350px]
+            z-10
           "
         >
-          <!-- iPhone - Notch -->
-          <div class="fixed top-30 inset-x-0 z-20">
-            <div class="h-6 w-40 mx-auto bg-black rounded-b-3xl"></div>
-          </div>
-
           <!-- Instagram - Stories -->
           <div
             class="
@@ -255,7 +256,7 @@
           </div>
 
           <!-- Instagram - Feed -->
-          <div class="relative flex flex-col">
+          <div class="relative flex flex-col overflow-hidden">
             <!-- Post -->
             <div class="flex flex-col bg-white pb-2">
               <!-- Post header -->
@@ -585,11 +586,21 @@
           "
         >
           <div class="relative flex w-full justify-between">
-            <i class="fas fa-home text-[22px] text-gris3"></i>
-            <i class="fas fa-search text-[22px] text-gris3"></i>
-            <i class="far fa-plus-square text-[22px] text-gris3"></i>
-            <i class="far fa-heart text-[22px] text-gris3"></i>
-            <i class="far fa-user-circle text-[22px] text-gris3"></i>
+            <a href="#">
+              <i class="fas fa-home text-[22px] text-gris3"></i>
+            </a>
+            <a href="#">
+              <i class="fas fa-search text-[22px] text-gris3"></i>
+            </a>
+            <a href="#">
+              <i class="far fa-plus-square text-[22px] text-gris3"></i>
+            </a>
+            <a href="#">
+              <i class="far fa-heart text-[22px] text-gris3"></i>
+            </a>
+            <a href="#">
+              <i class="far fa-user-circle text-[22px] text-gris3"></i>
+            </a>
           </div>
           <div class="absolute bottom-1 inset-x-0">
             <div class="mx-auto h-[6px] w-32 rounded bg-black"></div>
