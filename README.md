@@ -17,3 +17,8 @@ Libraries and technologies used for this project:
 
 ## Preview:
 ![enter image description here](https://raw.githubusercontent.com/abelareiza/instagram-ui-clone/main/custom/assets/preview/instagram-preview.png?token=AM6ZQOVAZ64Q5GNF543DTB3BHFQWA)
+
+
+[<img src='https://img.icons8.com/color/48/000000/github--v1.png' alt='github' height='40'>](https://github.com/abelareiza)
+[<img src='https://img.icons8.com/color/48/000000/linkedin.png' alt='linkedin' height='40'>](https://www.linkedin.com/in/abelareiza)
+[<img src='https://img.icons8.com/color/48/000000/twitter--v1.png' alt='twitter' height='40'>](https://twitter.com/Enjuavel) 
